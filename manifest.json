@@ -1,0 +1,32 @@
+{
+  "name": "Dead by daylight codes",
+  "version": "0.3.0",
+  "manifest_version": 3,
+  "description": "List of available DBD codes",
+  "author": "toniemati",
+  "icons": {
+  "128": "assets/self-care.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_title": "DBD CODES",
+    "default_icon": "assets/self-care.png"
+  },
+  "options_ui": {
+    "page": "options/options.html",
+    "open_in_tab": true
+  }
+}

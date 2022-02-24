@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 500px;
+  background: hsl(0, 0%, 20%);
+  color: #efefef;
+  font-family: sans-serif;
+
+  border-radius: 1rem;
+}
+
+.header {
+  text-align: center;
+  margin: 1.5rem;
+	color: deepskyblue;
+}
+
+.code__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  margin: 1rem;
+}
+
+.code__item {
+	font-size: 1rem;
+	font-weight: bold;
+	color: red;
+}
+
+.code__desc {
+	font-size: 0.9rem;
+	font-weight: normal;
+	color: yellow;
+}
+
+
+
+
+
+
+
