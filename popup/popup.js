@@ -1,7 +1,8 @@
 console.log('popup.js');
 
 const url = 'https://progameguides.com/dead-by-daylight/dead-by-daylight-codes/';
-const selector = '#post-55315 div.entry-content ul:nth-child(8) li';
+// const selector = '#post-55315 div.entry-content ul:nth-child(8) li';
+const selector = '#post-55315 div.entry-content ul:nth-child(10) li';
 
 const drawData = async (url) => {
   const response = await fetch(url);
